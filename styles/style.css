@@ -1,5 +1,50 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* header styles */
+header {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    padding:  0px  200px ; 
+    gap: 200px;
+
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+    margin-bottom: 32px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    margin-bottom: 32px;
+
+}
+
+.btn-primary {
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.banner-profile{
+    width: 500px;
+    padding-top: 50px;
 }
