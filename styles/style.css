@@ -226,3 +226,90 @@ header {
     flex-shrink: 0;
     padding: 100px 0px;
 }
+
+/* instagram section styles */
+.Instagram {
+    margin-top: 130px;
+}
+
+.sec-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.sec-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    margin: 0px auto;
+
+}
+
+.instagram-pic {
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.instagram-pic .image {
+    width: 342px;
+    height: 396px;
+}
+
+/* get the latest deal section style */
+
+.deals {
+    margin: 130px auto;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(""), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    
+
+}
+
+/* footer section styles */
+footer {
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+    padding: 150px 350px;
+}
+
+.footer-heading .flower-shop {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.footer-heading {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-sub-headings {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 625px;
+    margin:24px auto ;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
