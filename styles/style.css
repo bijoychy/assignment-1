@@ -51,17 +51,12 @@ header {
 }
 
 /* main section styles */
-main {
-    margin: 150px auto;
-    padding: 0px 240px;
-
-}
-
 .Featured-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-top: 150px;
     margin-bottom: 20px;
 }
 
@@ -72,15 +67,6 @@ main {
     font-weight: 400;
     width: 594px;
     margin: 0px auto;
-
-}
-
-.image-1 {
-    width: 400px;
-    height: 480px;
-    flex-shrink: 0;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
 
 }
 
@@ -120,6 +106,7 @@ main {
     justify-content: center;
     gap: 24px;
 }
+
 .more-item {
     margin-top: 32px;
     text-align: center;
@@ -127,6 +114,115 @@ main {
     font-weight: 700;
     text-decoration-line: underline;
 }
+
 .more-item a {
     color: #272727;
+}
+
+/* group section styles */
+.group-section {
+    margin: 130px auto;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.group {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 80px 0px;
+
+}
+
+.group-1 {
+    display: grid;
+    place-items: center;
+}
+
+.group-2 {
+    display: grid;
+    place-items: center;
+}
+
+.group-3 {
+    display: grid;
+    place-items: center;
+}
+
+.group img {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+}
+
+.group p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+/* discount-section styles */
+.discount-section {
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+
+}
+
+.hot-deal {
+    /* align-items: center; */
+    padding: 230px 300px;
+    gap: 180px;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.hot-deal-title #off {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    margin-bottom: 48px;
+}
+
+.sign-up {
+    display: grid;
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section-image img {
+    justify-content: center;
+    height: 650px;
+    flex-shrink: 0;
+    padding: 100px 0px;
 }
