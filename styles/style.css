@@ -178,9 +178,10 @@ header {
 }
 
 .hot-deal {
-    /* align-items: center; */
+    display: grid;
+    place-items: center;
     padding: 230px 300px;
-    gap: 180px;
+
 }
 
 .hot-deal-title {
@@ -209,9 +210,7 @@ header {
 }
 
 .sign-up {
-    display: grid;
     padding: 20px 43px;
-    gap: 10px;
     border-radius: 8px;
     background: #E55473;
     border: 0;
@@ -265,13 +264,62 @@ header {
 /* get the latest deal section style */
 
 .deals {
+    display: grid;
+    place-items: center;
     margin: 130px auto;
+    padding: 120px 200px;
     width: 1440px;
     height: 449px;
     flex-shrink: 0;
     border-radius: 8px;
-    background: url(""), lightgray 0px -203.444px / 100% 213.755% no-repeat;
-    
+    background: url('../Flower\ Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+}
+
+.deals-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deals-sub-heading {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.input-area{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.input-email {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+}
+
+input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 23px;
+}
+.subscribe-btn {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
 
 }
 
@@ -304,7 +352,7 @@ footer {
     font-size: 18px;
     font-weight: 400;
     width: 625px;
-    margin:24px auto ;
+    margin: 24px auto;
 }
 
 .footer-description {
